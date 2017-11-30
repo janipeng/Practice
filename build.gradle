@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            'cglib:cglib:2.2'
+    )
+
+    testCompile(
+            'junit:junit:4.12'
+    )
+}
